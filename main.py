@@ -8,6 +8,7 @@
 
 # 全局取消证书验证
 import ssl
+
 ssl._create_default_https_context = ssl._create_unverified_context
 
 # 1.CIFAR-10数据加载和处理
